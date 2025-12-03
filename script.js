@@ -4,7 +4,7 @@
         let counter = 0;
 
         incrementButton.addEventListener('click', function() {
-            alert(`Current value: ${counter}`);
+            alert(counter);
             counter++;
             counterElement.textContent = counter;
         });
